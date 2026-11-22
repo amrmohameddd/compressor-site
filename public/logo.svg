@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">شعار كمبروسر</title>
+  <desc id="desc">رمز هندسي مستوحى من تدفق المياه والأنابيب بألوان كحلية وتركوازية.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123d49"/>
+      <stop offset="1" stop-color="#061b25"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9af5df"/>
+      <stop offset="1" stop-color="#37c9ad"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="126" fill="url(#bg)"/>
+  <rect x="28" y="28" width="456" height="456" rx="110" fill="none" stroke="#9af5df" stroke-opacity=".15" stroke-width="2"/>
+  <g filter="url(#shadow)">
+    <path d="M114 174h90c37 0 63 25 63 61v43c0 36 25 60 61 60h70" fill="none" stroke="#e9fffb" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M114 174h90c37 0 63 25 63 61v43c0 36 25 60 61 60h70" fill="none" stroke="url(#water)" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M116 338h59c38 0 63-25 63-61v-43c0-36 25-60 61-60h97" fill="none" stroke="#e9fffb" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M116 338h59c38 0 63-25 63-61v-43c0-36 25-60 61-60h97" fill="none" stroke="#1e887f" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="114" cy="174" r="25" fill="#e9fffb"/>
+    <circle cx="114" cy="174" r="14" fill="#64e1c6"/>
+    <circle cx="114" cy="338" r="25" fill="#e9fffb"/>
+    <circle cx="114" cy="338" r="14" fill="#64e1c6"/>
+    <circle cx="398" cy="275" r="25" fill="#e9fffb"/>
+    <circle cx="398" cy="275" r="14" fill="#64e1c6"/>
+  </g>
+  <path d="M256 88c-25 37-44 60-44 88a44 44 0 0 0 88 0c0-28-19-51-44-88Z" fill="#64e1c6" opacity=".95"/>
+  <path d="M256 130c-11 17-19 28-19 41a19 19 0 0 0 38 0c0-13-8-24-19-41Z" fill="#eafffa"/>
+  <path d="M172 410h168" stroke="#9af5df" stroke-opacity=".3" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="156" cy="410" r="5" fill="#64e1c6"/>
+  <circle cx="356" cy="410" r="5" fill="#64e1c6"/>
+</svg>
